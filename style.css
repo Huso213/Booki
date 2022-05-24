@@ -1302,10 +1302,11 @@ h5 {
   }
   /*titres  plus populaire*/
   .plus {
-    width:fit-content;
+    width:auto;
     display:flex;
-    gap:50em;
-    margin: 120px 0 90px 110px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 120px 100px 90px 110px;
   }
   .plus h3 {
     display: flex;
@@ -1317,8 +1318,7 @@ h5 {
   }
  
   .plus .fas.fa-star.fa-lg {
-    margin: 68px 240px 0 0;
-    display: flex;
+    margin: 68px 0 0 0;
     font-size: 120px;
   }
 
@@ -1335,8 +1335,9 @@ h5 {
   }
 
   .popular-flex {
-    width:98%;
+    width:95%;
     align-self: center;
+    align-items: center;
     display: flex;
     margin: 60px 0px 60px -110px;
     flex-direction: column;
