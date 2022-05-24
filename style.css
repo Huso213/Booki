@@ -1128,9 +1128,9 @@ h5 {
     font-size: 50px;
   }
   .titre p {
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 400;
-    width: -webkit-fill-available;
+    width: 900px;
     margin-bottom: 2em;
   }
 
@@ -1269,126 +1269,171 @@ h5 {
   .appartements-list {
     display: flex;
     flex-direction: column;
-    margin: 0 0 0px 50px;
+    width: -webkit-fill-available;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
   }
+
   #hebergement {
     width: -webkit-fill-available;
   }
-  /*titres des hebergement marseille+plus populaire*/
-  .plus h3{
-    border: solid red;
-    font-size: 100px;
+  /*titres  plus populaire*/
+  .plus h3 {
+    font-size: 130px;
     font-weight: 700;
+    width: -webkit-fill-available;
     height: max-content;
-    margin: 0px 0 -90px 20px;
   }
-
-  .hebmarseille h3 {
-    font-size: 3.5em;
-    font-weight: 700;
-    height: max-content;
-    margin: 15px 0 20px 25px;
+  .plus {
+    width: 1600px;
+    display: flex;
+    margin: 120px 0 90px 100px;
+  }
+  .plus .fas.fa-star.fa-lg {
+    margin: 65px -60px 0 0;
+    display: inline-flex;
+    font-size: 100px;
   }
 
   /*fin titre*/
 
   /*Plus populaire*/
   .popular {
-    border: 1px solid green;
-margin:0 0 0 -50px ;
     order: -1;
-    display: flex;
-    width: 130%;
+    margin: auto;
+    display: inline-flex;
+    width: -webkit-fill-available;
+    min-width: 1500px;
     height: max-content;
   }
   .popular-flex {
-    width: -webkit-fill-available;
+    width: fit-content;
+    align-self: center;
     display: flex;
-    margin:60px 0 60px 0;
+    margin: 60px 60px 60px 60px;
     flex-direction: column;
+    gap: 50px;
   }
+  /*description des boites*/
+
   .popular-description {
     display: flex;
     flex-direction: column;
+    margin: 80px 0 0 15px;
+    width: auto;
+  }
+  /*titres boite plus populaire*/
+  .popular-description h4 {
+    margin: 0 0 0 50px;
+    font-size: 150px;
     width: -webkit-fill-available;
-    margin: 15px 0 0 65px;
+  }
+  .popular-description p {
+    margin: 50px 0 0 50px;
+    font-size: 150px;
+  }
+  /*etoile*/
+  .starpopular,
+  span {
+    width: 100%;
+    margin: 190px 0 0 15px;
+    font-size: 170px;
+  }
+  .starspopulargris {
+    font-size: 200px;
+    margin-left: -10px;
   }
 
+  /*fin description*/
   .popular-appartment-card {
-    border: solid red 1px;
     border-radius: 90px;
-    width: -webkit-fill-available;
+    margin: 0 50px 0 50px;
+    width: auto;
     height: max-content;
-  
   }
   .popular-appartment-card img {
-    width: -webkit-fill-available;
+    width: 900px;
     height: 900px;
     object-fit: cover;
     border-radius: 90px 0 0 90px;
     margin: 30px 0 30px 30px;
   }
-  /*Etoiles*/
-  .starpopular {
-    margin: 200px 0 0 50px;
-    font-size: 7em;
-  }
-  /*titres boite plus populaire*/
-  .popular-description h4 {
-    margin: 0 0 0 50px;
-    font-size: 5em;
-    width: auto;
-  }
-  .popular-description p {
-    margin: 0 0 0 50px;
-
-    font-size: 5em;
-  }
 
   /*HEBERGEMENT A MARSEILLE*/
-  .hebmarseille {
-    font-size: 5em;
-    margin: 50px 0 50px 20px;
+  /*titre HEBERGEMENT MARSEILLE*/
+  .hebmarseille h3 {
+    font-size: 150px;
+    height: max-content;
+    margin: 0 0 120px 20px;
   }
+  /*FIN TITRE*/
+
   .appartements-list .city {
-    border: solid green;
     display: flex;
-    width: auto;
+    width: -webkit-fill-available;
+    min-width: 1500px;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    background-color: white;
     height: max-content;
     flex-direction: column;
   }
   .city-appartments-list {
-    border: solid pink;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 2200px;
+    margin: 150px 0 0 0;
+    gap: 30px;
   }
 
   .appartment-card {
     margin: 10px 0 50px 0;
-    width: auto;
+    width: -webkit-fill-available;
     height: max-content;
     flex-direction: column;
     display: flex;
+    border-radius: 150px;
   }
 
   .appartment-card img {
-    width: auto;
-    height: 400px;
+    width: -webkit-fill-available;
+    height: 900px;
     object-fit: cover;
     flex-direction: row;
+    margin: 40px 40px 0 40px;
+    border-radius: 150px 150px 0 0;
   }
   /*description boite hebergement marseille*/
   .appartment-card h4 {
-    font-size: 5em;
+    font-size: 150px;
+    margin: 50px 0 30px 150px;
   }
 
   .appartment-card p {
-    font-size: 5em;
+    font-size: 120px;
+    margin: 20px 0 0 150px;
   }
+
+  /*ETOILE*/
+  .starsmarseille {
+    margin: 50px 0 50px 150px;
+  }
+  .starsmarseille .starsbleu {
+    font-size: 150px;
+  }
+  .starsmarseille .starsgris {
+    font-size: 150px;
+    margin: 0px 0 0 20px;
+  }
+
   /* afficher plus*/
   .marseille {
-    font-size: 3em;
+    font-size: 90px;
+    align-self: flex-start;
+    margin: 10px 0 0 35px;
   }
 
   /*-*-*-*-*-*-*ACTIVITES A MARSEILLE*-*-*-*-*-*/
