@@ -1126,7 +1126,7 @@ h5 {
 /*DEBUT 768---300*/
 @media screen and (max-width: 767px) and (min-width:300px){
   * {
-    zoom: 85%;
+    zoom: 80%;
     box-sizing: border-box;
  }
   header {
@@ -1135,7 +1135,7 @@ h5 {
   }
   /*logo*/
   img#logo {
-    width: 500px;
+    width: 800px;
     height: auto;
     align-self: center;
     align-items: center;
@@ -1150,20 +1150,20 @@ h5 {
   }
 
   .hebergement {
-    max-width:1680px ;
-    width: -webkit-fill-available;
+    
+    width:100%;
     margin: 0 0 90px 10px;
     font-size: 40px;
     font-weight: 500;
     height: 90px;
   }
   .hebergement a {
-    font-size: 60px;
+    font-size: 90px;
     font-weight: 600;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 1100px;
+    width: 1900px;
     height: auto;
     border-bottom: 15px #f2f2f2 solid;
     margin: 10px 0 0px -2px;
@@ -1182,36 +1182,36 @@ h5 {
     margin: 100px 0 0 10px;
   }
   .titre h1 {
-    width: 1350px;
+    width:170%;
     font-weight: 700;
-    font-size: 65px;
-    display: inline-²flex;
+    font-size: 90px;
+    display: flex;
     max-width: auto;
   }
   .titre p {
-    font-size: 45px;
+    font-size: 90px;
     font-weight: 400;
-    width: 900px;
+    width: 1900px;
     margin-bottom: 2em;
   }
 
   /**************BARRE DE RECHERCHE**********/
   .search {
     display: inline-flex;
-    width: -webkit-fill-available;
-    max-width: 1000px;
+    width: 2500px;
+    min-width: 1400px;
     margin: 0 0 20px 30px;
   }
   /*bord et icone localisation*/
   div.local {
-    height: 140px;
-    width: 140px;
+    height: 240px;
+    width: 240px;
     border-radius: 50px 0 0 50px;
     background-color: #f2f2f2;
   }
   /*icone*/
   .fas.fa-map-marker-alt {
-    font-size: 3.5em;
+    font-size:8em;
     width: inherit;
     height: 140px;
     margin: 0;
@@ -1221,14 +1221,14 @@ h5 {
   }
   /*Bouton loupe*/
   .rechercher button {
-    width: 170px;
-    height: 170px;
-    border-radius: 50px;
-    margin: 0px 0 0px -28px;
+    width: 300px;
+    height: 300px;
+    border-radius: 90px;
+    margin: 0px 0 0px -58px;
   }
   .rechercher .fas.fa-search {
     visibility: visible;
-    font-size: 3.5em;
+    font-size:5em;
     width: 1.7em;
     margin: 0;
   }
@@ -1237,14 +1237,14 @@ h5 {
   }
   input.barre {
     border: #f2f2f2 1px solid;
-    font-size: 45px;
+    font-size: 90px;
     width: -webkit-fill-available;
-    height: 140px;
+    height: 240px;
   }
   /*filtre*/
   /*titres Filtres */
   div.filtres {
-    max-width: 900px;
+    max-width: 1900px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1256,7 +1256,7 @@ h5 {
   .filtres h2 {
     margin: 30px 0 35px 5px;
     display: flex;
-    font-size: 50px;
+    font-size: 90px;
     font-weight: bold;
   }
   .filter {
@@ -1267,7 +1267,7 @@ h5 {
   }
   div.bouton {
     display: flex;
-    height: 150px;
+    height: 250px;
     border: #f2f2f2 3px solid;
     border-radius: 100px;
     margin-right: 0rem;
@@ -1276,7 +1276,7 @@ h5 {
   div.bouton span {
     display: flex;
     margin: 0 35px 0 35px;
-    font-size: 70px;
+    font-size: 130px;
     font-weight: bold;
   }
   div.bouton i.fas.fa-money-bill-wave,
@@ -1293,8 +1293,8 @@ h5 {
     align-self: center;
     justify-content: center;
     margin: 0 0 0 0px;
-    height: 190px;
-    width: 250px;
+    height: 300px;
+    width: 380px;
   }
 
   div.bouton:hover {
@@ -1304,27 +1304,28 @@ h5 {
 
   /* info*/
   .information {
-    width: -webkit-fill-available;
+    border: solid red 1px;
+    width: 1780px;
     margin: 0 0 20px 0;
   }
   .information .info {
     margin: 0 0 0 80px;
-    width: 1000px;
+    width: 1900px;
   }
   .info i {
-    font-size: 65px;
+    font-size: 95px;
   }
   div.i {
     border: 1px solid lightgray;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     margin: 0 20px 35px -45px;
   }
   div.i .fas.fa-info {
-    font-size: 70px;
+    font-size: 100px;
   }
   div.info p {
-    font-size: 60px;
+    font-size: 100px;
     width: max-content;
   }
 
@@ -1343,7 +1344,8 @@ h5 {
   }
   /*titres  plus populaire*/
   .plus {
-    width: auto;
+    width: 93%;
+    border: solid blue 1px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -1369,9 +1371,12 @@ h5 {
   .popular {
     border: solid red;
     order: -1;
-    margin: 0 20px 0 1036px;
+    margin: 0 20px 0 0px;
     display: flex;
     width:160%;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
     height: max-content;
   }
 
@@ -1398,23 +1403,23 @@ h5 {
   .popular-description h4 {
     display: flex;
     margin: 0 0 0 50px;
-    font-size: 150px;
+    font-size: 250px;
     font-weight: bold;
     width: -webkit-fill-available;
   }
   .popular-description p {
     margin: 50px 0 0 50px;
-    font-size: 100px;
+    font-size: 200px;
   }
   /*etoile*/
   .starpopular,
   span {
     width: 100%;
     margin: 190px 0 0 15px;
-    font-size: 170px;
+    font-size: 200px;
   }
   .starspopulargris {
-    font-size: 200px;
+    font-size: 230px;
     margin-left: -10px;
   }
 
