@@ -1126,7 +1126,7 @@ h5 {
 /*DEBUT 768---450*/
 @media (max-width: 767px) and (min-width:450px){
   * {
-    zoom: 80%;
+    zoom: 70%;
     box-sizing: border-box;
  }
   header {
@@ -1640,7 +1640,7 @@ h5 {
 /*FIN 767---450*/
 @media (max-width: 450px) and (min-width:300px){
   * {
-    zoom: 90%;
+    zoom: 70%;
     box-sizing: border-box;
  }
   header {
