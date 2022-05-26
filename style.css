@@ -1124,7 +1124,7 @@ h5 {
 /*FIN 998px A 768*/
 /**************************************PORTABLE******************/
 /*DEBUT 768---300*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width:300px){
   * {
     zoom: 85%;
     box-sizing: border-box;
