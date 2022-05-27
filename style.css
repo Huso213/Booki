@@ -1674,8 +1674,9 @@ h5 {
 /*FIN 767---450*/
 @media (max-width: 450px) and (min-width:300px){
   * {
-   zoom:67%;
+   zoom:70%;
     box-sizing: border-box;
+    margin: 5px 0 0 10px;
  }
   header {
     display: flex;
@@ -1693,12 +1694,15 @@ h5 {
 
   nav {
     flex-direction: column;
-    width: -webkit-fill-available;
+    width:80%;
     height: max-content;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
   }
 
   .hebergement {
-    width:100%;
+    width:80%;
     margin: 0 0 120px 10px;
     font-size: 40px;
     font-weight: 500;
@@ -1723,21 +1727,19 @@ h5 {
   }
   /*titre*/
   .titre {
-    max-width: 900px;
-    width:min-content;
+    width: 1000px;
     display: inline-flex;
     flex-direction: column;
     margin: 150px 0 0 10px;
   }
   .titre h1 {
-    width:150%;
-    font-weight: 700;
-    font-size: 90px;
+    width:90%;
+    font-size:75px;
     display: flex;
     max-width: auto;
   }
   .titre p {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 400;
     width: 1900px;
     margin-bottom: 2em;
@@ -1752,16 +1754,16 @@ h5 {
   }
   /*bord et icone localisation*/
   div.local {
-    height: 240px;
-    width: 300px;
+    height: 150px;
+    width: 200px;
     border-radius: 50px 0 0 50px;
     background-color: #f2f2f2;
   }
   /*icone*/
   .fas.fa-map-marker-alt {
-    font-size:8em;
+    font-size:6em;
     width: inherit;
-    height: 140px;
+    height: 150px;
     margin: 0;
     justify-content: center;
     align-self: center;
@@ -1769,14 +1771,14 @@ h5 {
   }
   /*Bouton loupe*/
   .rechercher button {
-    width: 350px;
-    height: 350px;
-    border-radius: 90px;
+    width: 280px;
+    height: 240px;
+    border-radius: 70px;
     margin: 0px 0 0px -58px;
   }
   .rechercher .fas.fa-search {
     visibility: visible;
-    font-size:8em;
+    font-size:6em;
     width: 1.7em;
     margin: 0;
   }
@@ -1785,9 +1787,9 @@ h5 {
   }
   input.barre {
     border: #f2f2f2 1px solid;
-    font-size: 90px;
+    font-size: 60px;
     width: 950px;
-    height: 240px;
+    height: 150px;
   }
   /*filtre*/
   /*titres Filtres */
@@ -1804,7 +1806,7 @@ h5 {
   .filtres h2 {
     margin: 30px 0 35px 5px;
     display: flex;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: bold;
   }
   .filter {
@@ -1815,7 +1817,7 @@ h5 {
   }
   div.bouton {
     display: flex;
-    height: 250px;
+    height: 200px;
     border: #f2f2f2 3px solid;
     border-radius: 100px;
     margin-right: 0rem;
@@ -1824,7 +1826,7 @@ h5 {
   div.bouton span {
     display: flex;
     margin: 0 35px 0 35px;
-    font-size: 130px;
+    font-size: 90px;
     font-weight: bold;
   }
   div.bouton i.fas.fa-money-bill-wave,
@@ -1862,18 +1864,19 @@ h5 {
   .info i {
     font-size: 95px;
   }
+  /*bord i*/
   div.i {
     border: 1px solid lightgray;
-    height: 200px;
-    width: 200px;
-    margin: 0 20px 35px -45px;
+    height:100px;
+    width: 150px;
+    margin: 0 20px 45px -45px;
   }
   div.i .fas.fa-info {
     font-size: 100px;
   }
   div.info p {
-    font-size: 100px;
-    width: max-content;
+    font-size: 70px;
+    width:230%;
   }
 
   /*Hebergement a Marseille+Plus populaire*/
