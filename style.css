@@ -2111,7 +2111,6 @@ transform: scale(1.01);
   .doublecard {
     border: solid red 1px;
     display: flex;
-    width: 180%;
     flex-direction: column;
     width: -webkit-fill-available;
   }
@@ -2122,12 +2121,10 @@ transform: scale(1.01);
   .card4,
   .card5,
   .card6 {
+    width: -webkit-fill-available;
     height: auto;
     margin: 25px 0 150px 30px;
     display: flex;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
     flex-direction: column;
     border-radius: 150px;
   }
