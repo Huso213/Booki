@@ -925,7 +925,7 @@ h5 {
   .popular {
     width: -webkit-fill-available;
     height: auto;
-    margin: 0 0 0 2px;
+    margin: 0 0 0 -20px;
   }
   /*disposition des 3boites*/
   .popular-flex {
@@ -988,16 +988,14 @@ h5 {
   /*titre hebergement à Marseille*/
   .hebmarseille,
   .h3 {
-    font-size: 1.7em;
-    margin: 2px 0 5px 30px;
+    font-size:30px;
+    margin: 2px 0 5px 0px;
   }
   .city-appartments-list {
     gap: 1em;
     display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
     height: auto;
+    margin: 40px 0 0 -30px;
   }
 
   /*taille des boites*/
@@ -1026,10 +1024,13 @@ h5 {
     margin: 10px 0 0 15px;
   }
   /*AFFICHER PLUS*/
+  div.marseille{
+    margin: 0 0 0 -15px;
+  }
   div.marseille a {
+
     font-size: 40px;
     font-weight: 400;
-    margin: 10px 5px 0 0;
   }
   /*zoom Hebergement Marseillle */
   .appartment-card:hover {
@@ -1126,10 +1127,10 @@ h5 {
     background-color: #f2f2f2;
     width: -webkit-fill-available;
     height: 320px;
-    margin: -5px 0 0px -2px;
+    margin: -5px -80px 0px -2px;
   }
   .footercolone {
-    margin: 0 1em 0 0;
+    margin: 0 1em 0 -40px;
   }
 }
 /*FIN 998px A 768*/
@@ -2005,7 +2006,7 @@ h5 {
     justify-content: flex-start;
     align-items: flex-start;
     align-self: flex-start;
-    margin: 150px 0 30px -500px;
+    margin: 150px 0 30px -1350px;
   }
   /*FIN TITRE*/
 
@@ -2037,7 +2038,7 @@ h5 {
     height: auto;
     flex-direction: column;
     display: flex;
-    border-radius: 150px;
+    border-radius: 180px;
   }
 
   .appartment-card img {
@@ -2046,7 +2047,7 @@ h5 {
     object-fit: cover;
     flex-direction: row;
     margin: 40px 40px 0 30px;
-    border-radius: 150px 150px 0 0;
+    border-radius: 180px 180px 0 0;
   }
   /*description boite hebergement marseille*/
   .appartment-card h4 {
@@ -2089,10 +2090,9 @@ transform: scale(1.01);
 
   /*-*-*-*-*-*-*ACTIVITES A MARSEILLE*-*-*-*-*-*/
   #activites {
-    border: solid green 1px;
     width: -webkit-fill-available;
     display: flex;  
-    margin: 11px 0 0 20px;
+    margin: 11px 30px 0 -5px;
   }
   section.activite {
     flex-direction: column;
@@ -2105,11 +2105,10 @@ transform: scale(1.01);
     font-size: 80px;
     width: max-content;
     font-weight: 700;
-    margin: 60px 0 40px 40px;
+    margin: 60px 0 40px 20px;
   }
   .card,
   .doublecard {
-    border: solid red 1px;
     display: flex;
     flex-direction: column;
     width: -webkit-fill-available;
@@ -2126,11 +2125,11 @@ transform: scale(1.01);
     margin: 25px 0 150px 30px;
     display: flex;
     flex-direction: column;
-    border-radius: 150px;
+    border-radius: 250px;
   }
   .card2,
   .card5 {
-    margin-bottom: 3em;
+    margin-bottom: 18em;
   }
   .card1 img,
   .card2 img,
@@ -2142,7 +2141,7 @@ transform: scale(1.01);
     height: 1500px;
     object-fit: cover;
     display: flex;
-    border-radius: 140px 140px 0 0;
+    border-radius: 180px 180px 0 0;
   }
   /*taille des titres*/
   .card1 h4,
@@ -2179,7 +2178,7 @@ transform: scale(1.001);
   .footer {
     background-color: #f2f2f2;
     margin: 50px 0 -50px -7px;
-    max-width: 1000px;
+    max-width: 985px;
     min-width: 900px;
     width: 250%;
     display: flex;
@@ -2205,8 +2204,9 @@ transform: scale(1.001);
     border-bottom: none;
   }
 
+
 }
 
 /*FIN 767---300*/
 
-
+/*FIN 767---300*/
