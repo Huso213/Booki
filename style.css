@@ -1676,6 +1676,7 @@ h5 {
   * {
    zoom:71%;
     box-sizing: border-box;
+ max-width: -webkit-fill-available;
     
  }
   header {
@@ -1891,7 +1892,8 @@ h5 {
   }
 
   #hebergement {
-    width: max-content;
+    width:fit-content;
+
   }
   /*titres  plus populaire*/
   .plus {
@@ -1923,16 +1925,11 @@ h5 {
     margin: 0 20px 0 0px;
     display: flex;
     width:140%;
-    align-items: flex-start;
-    align-self: flex-start;
-    justify-content: flex-start;
     height: max-content;
   }
 
   .popular-flex {
-    width: 1700px;
-    align-self: center;
-    align-items: center;
+    width: 3000px;
     display: flex;
     margin: 60px 0px 60px -110px;
     flex-direction: column;
@@ -1997,9 +1994,7 @@ h5 {
 }
   /*HEBERGEMENT A MARSEILLE*/
   /*titre HEBERGEMENT MARSEILLE*/
-  .city {
-    display: flex;
-  }
+  
   .hebmarseille {
     margin-left: -250px;
     margin-bottom: 200px;
@@ -2028,7 +2023,7 @@ h5 {
   .city-appartments-list {
     display: flex;
     flex-direction: column;
-    width: 1900px;
+    width: -webkit-fill-available;
     margin: 90px 0 200px;
     align-items: center;
     justify-content: center;
@@ -2037,8 +2032,8 @@ h5 {
   }
 
   .appartment-card {
-    margin: 0 0 0 -100px;
-    width: 150%;
+    margin: 0 0 0 -20px;
+    width:180%;
     height: auto;
     flex-direction: column;
     display: flex;
@@ -2046,7 +2041,7 @@ h5 {
   }
 
   .appartment-card img {
-    width: 98%;
+    width: 150%;
     height: 1200px;
     object-fit: cover;
     flex-direction: row;
@@ -2094,15 +2089,15 @@ transform: scale(1.01);
 
   /*-*-*-*-*-*-*ACTIVITES A MARSEILLE*-*-*-*-*-*/
   #activites {
+    border: solid green 1px;
+    width: -webkit-fill-available;
     display: flex;  
     margin: 11px 0 0 20px;
   }
   section.activite {
     flex-direction: column;
     display: flex;
-    max-width:2500px;
-    min-width: none;
-    width: 155%;
+    width: -webkit-fill-available;
     height: 110%;
   }
   /*titre*/
@@ -2114,7 +2109,9 @@ transform: scale(1.01);
   }
   .card,
   .doublecard {
+    border: solid red 1px;
     display: flex;
+    width: 180%;
     flex-direction: column;
     width: -webkit-fill-available;
   }
@@ -2125,7 +2122,6 @@ transform: scale(1.01);
   .card4,
   .card5,
   .card6 {
-    width: 105%;
     height: auto;
     margin: 25px 0 150px 30px;
     display: flex;
