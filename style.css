@@ -1185,7 +1185,7 @@ h5 {
   }
   /*titre*/
   .titre {
-    max-width: 1090px;
+    max-width: -webkit-fill-available;
     width: min-content;
     display: inline-flex;
     flex-direction: column;
@@ -1277,7 +1277,7 @@ h5 {
   }
   div.bouton {
     display: flex;
-    height: 250px;
+    height: 210px;
     border: #f2f2f2 3px solid;
     border-radius: 100px;
     margin-right: 0rem;
@@ -1674,11 +1674,12 @@ h5 {
 /*FIN 767---450*/
 @media (max-width: 450px) and (min-width:300px){
   * {
-   zoom:70%;
+   zoom:71%;
     box-sizing: border-box;
-    margin: 5px 0 0 10px;
+    
  }
   header {
+    margin: 0 0 0 -60px;
     display: flex;
     width: max-content;
   }
@@ -1727,7 +1728,7 @@ h5 {
   }
   /*titre*/
   .titre {
-    width: 1000px;
+    width: -webkit-fill-available;
     display: inline-flex;
     flex-direction: column;
     margin: 150px 0 0 10px;
@@ -1844,7 +1845,7 @@ h5 {
     justify-content: center;
     margin: 0 0 0 0px;
     height: 300px;
-    width: 380px;
+    width: 300px;
   }
 
   div.bouton:hover {
@@ -2009,7 +2010,7 @@ h5 {
     justify-content: flex-start;
     align-items: flex-start;
     align-self: flex-start;
-    margin: 150px 0 30px -60px;
+    margin: 150px 0 30px -500px;
   }
   /*FIN TITRE*/
 
@@ -2027,8 +2028,8 @@ h5 {
   .city-appartments-list {
     display: flex;
     flex-direction: column;
-    width: 2000px;
-    margin: 90px 0 0 120px;
+    width: 1900px;
+    margin: 90px 0 200px;
     align-items: center;
     justify-content: center;
     align-self: center;
@@ -2106,7 +2107,7 @@ transform: scale(1.01);
   }
   /*titre*/
   #activites h6 {
-    font-size: 90px;
+    font-size: 80px;
     width: max-content;
     font-weight: 700;
     margin: 60px 0 40px 40px;
