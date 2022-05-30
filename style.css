@@ -1716,7 +1716,7 @@ h5 {
 /*FIN 767---450*/
 @media (max-width: 450px) and (min-width: 200px) {
   * {
-    zoom: 65%;
+    zoom: 67%;
     box-sizing: border-box;
   }
   header {
