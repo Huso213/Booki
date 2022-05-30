@@ -1178,7 +1178,7 @@ h5 {
 /*DEBUT 768---450*/
 @media (max-width: 767px) and (min-width: 450px) {
   * {
-    zoom: 76%;
+    zoom: 80%;
     box-sizing: border-box;
   }
   header {
@@ -1233,7 +1233,7 @@ h5 {
     margin: 180px 0 0 -10px;
   }
   .titre h1 {
-    width: 165%;
+    width: 2500px;
     font-weight: 700;
     font-size: 90px;
     display: flex;
@@ -1355,12 +1355,13 @@ h5 {
 
   /* info*/
   .information {
-    width: 1600px;
+    width: 2000px;
     margin: 0 0 20px 0;
   }
   .information .info {
     margin: 0 0 0 50px;
-    width: 1900px;
+    width: 2500px;
+
   }
   .info i {
     font-size: 95px;
@@ -1376,7 +1377,6 @@ h5 {
   }
   div.info p {
     font-size: 100px;
-    width: max-content;
   }
 
   /*Hebergement a Marseille+Plus populaire*/
@@ -1473,7 +1473,7 @@ h5 {
 
   /*fin description*/
   .popular-appartment-card {
-    border-radius: 170px;
+    border-radius: 190px;
     margin: 0 -50px 0 75px;
     width: 190%;
     height:auto;
@@ -1482,7 +1482,7 @@ h5 {
     width: 1600px;
     height: 1300px;
     object-fit: cover;
-    border-radius: 170px 0 0 170px;
+    border-radius: 190px 0 0 190px;
     margin: 30px 0 30px 30px;
   }
   /*zoom PLUS POPULAIRE*/
@@ -1541,7 +1541,7 @@ h5 {
     height: auto;
     flex-direction: column;
     display: flex;
-    border-radius: 150px;
+    border-radius: 190px;
   }
 
   .appartment-card img {
@@ -1550,7 +1550,7 @@ h5 {
     object-fit: cover;
     flex-direction: row;
     margin: 40px 40px 0 30px;
-    border-radius: 150px 150px 0 0;
+    border-radius: 190px 190px 0 0;
   }
   /*description boite hebergement marseille*/
   .appartment-card h4 {
@@ -1595,16 +1595,15 @@ h5 {
   /*-*-*-*-*-*-*ACTIVITES A MARSEILLE*-*-*-*-*-*/
   #activites {
     display: flex;
-    width: 56%;
+    width:auto;
     margin: 20px 0 0 -20px;
   }
   section.activite {
     flex-direction: column;
     display: flex;
-    max-width: 2500px;
-    min-width: 1600px;
-    width: 155%;
-    height: 110%;
+    width:100%;
+    min-width: 2500px;
+    height: 100%;
   }
   /*titre*/
   #activites h6 {
@@ -1626,15 +1625,12 @@ h5 {
   .card4,
   .card5,
   .card6 {
-    width: 135%;
+    width:100%;
     height:auto;
     display: flex;
     margin-left: 100px;
-    align-items: flex-end;
-    align-self: flex-end;
-    justify-content: flex-end;
     flex-direction: column;
-    border-radius: 150px;
+    border-radius: 190px;
   }
   .card2,
   .card5 {
@@ -1646,11 +1642,11 @@ h5 {
   .card4 img,
   .card5 img,
   .card6 img {
-    width: 100%;
+    width:auto;
     height: 1900px;
     object-fit: cover;
     display: flex;
-    border-radius: 140px 140px 0 0;
+    border-radius: 190px 190px 0 0;
   }
   /*taille des titres*/
   .card1 h4,
@@ -1688,15 +1684,15 @@ h5 {
   .footer {
     background-color: #f2f2f2;
     margin: 50px 0 -50px -7px;
-    max-width: 1650px;
-   width: 200%;
+   width: auto;
+   min-width: 2000px;
     display: flex;
     height: -webkit-fill-available;
     flex-direction: column;
   }
   .footercolone {
     padding: 70px 0 70px 0;
-    width: 100%;
+    width: 120%;
     height: 105%;
     margin: 35px 0 70px -50px;
   }
@@ -2136,9 +2132,9 @@ h5 {
   section.activite {
     flex-direction: column;
     display: flex;
-    max-width: 2500px;
-    min-width: 1600px;
-    width: 155%;
+    max-width: 2000px;
+    min-width: 1000px;
+    width: 135%;
     height: 110%;
   }
   /*titre*/
@@ -2161,7 +2157,7 @@ h5 {
   .card4,
   .card5,
   .card6 {
-    width: 135%;
+    width: 100%;
     height:auto;
     display: flex;
     margin-left: 100px;
@@ -2223,8 +2219,8 @@ h5 {
   .footer {
     background-color: #f2f2f2;
     margin: 50px 0 -50px -7px;
-    max-width: 1650px;
-   width: 200%;
+    max-width: 1200px;
+   width: 100%;
     display: flex;
     height: -webkit-fill-available;
     flex-direction: column;
