@@ -1714,9 +1714,9 @@ h5 {
   }
 }
 /*FIN 767---450*/
-@media (max-width: 450px) and (min-width: 300px) {
+@media (max-width: 450px) and (min-width: 200px) {
   * {
-    zoom: 76%;
+    zoom: 65%;
     box-sizing: border-box;
   }
   header {
@@ -1742,17 +1742,15 @@ h5 {
   .hebergement {
     width: 100%;
     margin: 0 0 90px 10px;
-    font-size: 40px;
-    font-weight: 500;
     height: 90px;
   }
   .hebergement a {
-    font-size: 120px;
+    font-size: 180px;
     font-weight: 600;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 1900px;
+    width: 2000px;
     height: auto;
     border-bottom: 25px #f2f2f2 solid;
     margin: 10px 0 0px -2px;
@@ -1771,16 +1769,16 @@ h5 {
     margin: 180px 0 0 -10px;
   }
   .titre h1 {
-    width: 165%;
+    width: 100%;
     font-weight: 700;
     font-size: 90px;
     display: flex;
     max-width: auto;
   }
   .titre p {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 400;
-    width: 1900px;
+    width:max-content;
     margin-bottom: 2em;
   }
 
@@ -1810,14 +1808,14 @@ h5 {
   }
   /*Bouton loupe*/
   .rechercher button {
-    width: 300px;
-    height: 300px;
-    border-radius: 90px;
+    width: 350px;
+    height: 360px;
+    border-radius: 100px;
     margin: 0px 0 0px -58px;
   }
   .rechercher .fas.fa-search {
     visibility: visible;
-    font-size: 5em;
+    font-size: 10em;
     width: 1.7em;
     margin: 0;
   }
@@ -1826,14 +1824,14 @@ h5 {
   }
   input.barre {
     border: #f2f2f2 1px solid;
-    font-size: 90px;
-    width: -webkit-fill-available;
+    font-size: 70px;
+    width: max-content;
     height: 240px;
   }
   /*filtre*/
   /*titres Filtres */
   div.filtres {
-    max-width: 1400px;
+    max-width: 1120px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1845,7 +1843,7 @@ h5 {
   .filtres h2 {
     margin: 30px 0 35px 5px;
     display: flex;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: bold;
   }
   .filter {
@@ -1865,14 +1863,14 @@ h5 {
   div.bouton span {
     display: flex;
     margin: 0 35px 0 35px;
-    font-size: 130px;
+    font-size: 150px;
     font-weight: bold;
   }
   div.bouton i.fas.fa-money-bill-wave,
   .fas.fa-child,
   .fas.fa-heart,
   .fas.fa-dog {
-    font-size: 80px;
+    font-size:100px;
     color: #0065fc;
     background-color: #deebff;
     border-radius: 100%;
@@ -1893,28 +1891,28 @@ h5 {
 
   /* info*/
   .information {
-    width: 1600px;
+    width: 1400px;
     margin: 0 0 20px 0;
   }
   .information .info {
     margin: 0 0 0 50px;
-    width: 1900px;
+    width: 1740px;
   }
   .info i {
-    font-size: 95px;
+    font-size: 90px;
   }
   div.i {
     border: 1px solid lightgray;
     height: 200px;
-    width: 200px;
-    margin: 0 20px 35px -45px;
+    width: 250px;
+    margin: 0 30px 35px -45px;
   }
   div.i .fas.fa-info {
     font-size: 100px;
   }
   div.info p {
     font-size: 100px;
-    width: max-content;
+    width: 110%;
   }
 
   /*Hebergement a Marseille+Plus populaire*/
@@ -1932,7 +1930,7 @@ h5 {
   }
   /*titres  plus populaire*/
   .plus {
-    width: 95%;
+    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -1940,7 +1938,7 @@ h5 {
   }
   .plus h3 {
     display: flex;
-    font-size: 150px;
+    font-size: 200px;
     font-weight: 700;
     width: max-content;
     flex-direction: column;
@@ -1950,7 +1948,7 @@ h5 {
 
   .plus .fas.fa-star.fa-lg {
     margin: 68px 0 0 0;
-    font-size: 120px;
+    font-size: 200px;
   }
 
   /*fin titre*/
@@ -1958,44 +1956,43 @@ h5 {
   /*Plus populaire*/
   .popular {
     order: -1;
-    margin: 0 20px 0 -17px;
+    margin: 0 0px 0 0px;
     display: flex;
-    width: 210%;
+    width: 260%;
     align-items: flex-start;
-    align-self: flex-start;
+    align-self:start;
     justify-content: flex-start;
+    border:solid;
     height: max-content;
   }
 
   .popular-flex {
-    width: 1900px;
-    align-self: center;
-    align-items: center;
+    width: 1000px;
     display: flex;
-    margin: 60px 0px 60px -110px;
+    margin: 60px 0px 60px 0px;
     flex-direction: column;
-    gap: 50px;
   }
   /*description des boites*/
 
   .popular-description {
     display: flex;
+    border: solid red;
     flex-direction: column;
     margin: 80px 40px 0 35px;
-    width: auto;
+    width: 5500px;
     padding-right: 5em;
   }
   /*titres boite plus populaire*/
   .popular-description h4 {
     display: flex;
     margin: 0 0 0 50px;
-    font-size: 250px;
-    font-weight: bold;
-    width: -webkit-fill-available;
+    font-size: 750px;
+    width:-webkit-fill-available;
+     font-weight: 600;
   }
   .popular-description p {
     margin: 50px 0 0 50px;
-    font-size: 200px;
+    font-size: 400px;
   }
   /*etoile*/
   .starpopular,
@@ -2013,12 +2010,12 @@ h5 {
   .popular-appartment-card {
     border-radius: 170px;
     margin: 0 -50px 0 75px;
-    width: 190%;
+    width: 390%;
     height:auto;
   }
   .popular-appartment-card img {
-    width: 1600px;
-    height: 1300px;
+    width: 3000px;
+    height: 2000px;
     object-fit: cover;
     border-radius: 170px 0 0 170px;
     margin: 30px 0 30px 30px;
