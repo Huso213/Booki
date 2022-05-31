@@ -1422,7 +1422,7 @@ h5 {
     order: -1;
     margin: 0 20px 0 -17px;
     display: flex;
-    width: 210%;
+    width: 188%;
     align-items: flex-start;
     align-self: flex-start;
     justify-content: flex-start;
@@ -1596,7 +1596,7 @@ h5 {
   /*-*-*-*-*-*-*ACTIVITES A MARSEILLE*-*-*-*-*-*/
   #activites {
     display: flex;
-    width: 1000px;
+    width: 1100px;
     margin: 20px 0 0 -20px;
   }
   section.activite {
@@ -1683,7 +1683,7 @@ h5 {
 
   .footer {
     background-color: #f2f2f2;
-   width: 1000px;
+   width: 1120px;
     display: flex;
     height:auto;
     flex-direction: column;
@@ -1696,7 +1696,7 @@ h5 {
   /*taille texte footer*/
   .footercolonetitre {
     font-size: 100px;
-    margin: 0px 0 50px 45px;
+    margin: 20px 0 50px 45px;
   }
   .footerligne {
     font-size: 80px;
