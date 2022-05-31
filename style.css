@@ -1178,7 +1178,7 @@ h5 {
 /*DEBUT 768---320*/
 @media (max-width: 767px) and (min-width: 320px) {
   * {
-    zoom: 75%;
+    zoom: 76%;
     box-sizing: border-box;
   }
   header {
@@ -1249,7 +1249,6 @@ h5 {
   /**************BARRE DE RECHERCHE**********/
   .search {
     display: flex;
-    width:35%;
     margin: 0 0 0px 30px;
   }
   /*bord et icone localisation*/
@@ -1421,7 +1420,7 @@ h5 {
     order: -1;
     margin: 0 20px 0 -17px;
     display: flex;
-    width: 188%;
+    width: 170%;
     align-items: flex-start;
     align-self: flex-start;
     justify-content: flex-start;
@@ -1497,7 +1496,9 @@ h5 {
   /*HEBERGEMENT A MARSEILLE*/
   /*titre HEBERGEMENT MARSEILLE*/
   .city {
+    margin-top: 40px;
     display: flex;
+    
   }
   .hebmarseille {
     margin-left: -250px;
@@ -1509,7 +1510,7 @@ h5 {
     justify-content: flex-start;
     align-items: flex-start;
     align-self: flex-start;
-    margin: 150px 0 30px 350px;
+    margin: 150px 0 40px 350px;
   }
   /*FIN TITRE*/
 
@@ -1537,7 +1538,8 @@ h5 {
 
   .appartment-card {
     margin: 0 0 0 80px;
-    width: 150%;
+    width: 140%;
+    min-width:900px;
     height: auto;
     flex-direction: column;
     display: flex;
@@ -1596,6 +1598,7 @@ h5 {
   #activites {
     display: flex;
     width: 1100px;
+    min-width:1600px;
     margin: 20px 0 0 -20px;
   }
   section.activite {
@@ -1683,6 +1686,7 @@ h5 {
   .footer {
     background-color: #f2f2f2;
    width: 1120px;
+   min-width:1650px;
     display: flex;
     height:auto;
     flex-direction: column;
