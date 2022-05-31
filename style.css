@@ -1686,7 +1686,6 @@ h5 {
     margin: 50px 0 -50px -7px;
    width: 1000px;
     display: flex;
-    height: -webkit-fill-available;
     flex-direction: column;
   }
   .footercolone {
