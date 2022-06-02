@@ -26,7 +26,7 @@ nav {
   text-decoration: none;
   font-size: 20px;
   font-weight: 500;
-  width: 200px;
+  width: max-content;
   height: 70px;
 }
 /*Logo booki*/
@@ -125,13 +125,21 @@ div.rechercher button {
 .filtres {
   margin: 30px 0px 0 25px;
   display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  row-gap: 0px;
 }
 div.filter {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  gap: 20px;
 }
 
 .filtres h2 {
-  margin: 18px 25px 0 18px;
+  margin: 18px 25px 18px 18px;
   display: inline-flex;
   font-size: 25px;
 }
@@ -664,13 +672,11 @@ h5 {
     flex-direction: column-reverse;
   }
   .popular {
-    border: solid;
     width: 100%;
     flex-direction: column;
   }
 
   .city {
-    border: solid;
     width: max-content;
   }
   .appartment-card {
@@ -701,54 +707,55 @@ h5 {
   .hebergement {
     align-self: center;
     border: solid;
-    margin: 0px;
+    margin:0 0 0 60px;
+    width: 400px;
     display: flex;
     justify-content: center;
   }
   .hebergement a {
     border-bottom: black solid 3px;
-    width: 750px;
-  }
-  /*filtres*/
-  .filtres{
-    border: solid salmon 1px;
-width: 100%;
-  }
-  .filter{
-    border: solid green 1px;
     width: 100%;
-
   }
-  div.bouton{
-    gap: 5px;
 
-    margin: 0 20px 0 0;
 
+  /*PLUS POPULAIRE*/
+  .popular-appartment-card {
+    width: 95%;
   }
-div.bouton span{
-  font-size: 12px;
-}
+
+  /*HEBERGEMENT MARSEILLE*/
+  .appartements-list .city {
+    width: 100%;
+  }
+  .city-appartments-list {
+    width: auto;
+    flex-direction: column;
+  }
+  .appartment-card{
+    width:100%;
+  }
+
   /*activite marseille*/
   #activites {
     border: solid salmon 1px;
+    width: 100%;
+    margin: 0 0 0 10px;
   }
   .activite {
     border: solid green 1 px;
     flex-direction: column;
     align-self: center;
   }
-  .card1 ,
-  .card2 ,
-  .card3 ,
-  .card4 ,
-  .card5 ,
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
   .card6 {
-    width: 300px;
+    width: 98%;
     align-items: center;
     height: max-content;
   }
-
-
 
   .card1 img,
   .card2 img,
@@ -757,10 +764,10 @@ div.bouton span{
   .card5 img,
   .card6 img {
     width: 100%;
-    height:150px;
+    height: 150px;
     object-fit: cover;
   }
-  
+
   .footer {
     flex-direction: column;
     background-color: #f2f2f2;
