@@ -10,14 +10,14 @@ a {
 }
 /*NAV BAR*/
 nav {
-  display: inline-flex;
-  width: 100%;
+  display: flex;
+  width: auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 /*barre hebergement et activite*/
 .hebergement {
   display: flex;
-  flex-direction: row;
-  margin: -1px 0px 0px 830px;
   gap: 2px;
 }
 
@@ -62,13 +62,13 @@ div.titre {
 
 /*BARRE DE RECHERCHE*/
 .search {
-  display: inline-flex;
-  max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
   margin-left: 45px;
 }
 
 .search button {
-  height: 40px;
   border-radius: 0 15px 15px 0;
   height: 55px;
   width: 140px;
@@ -80,15 +80,17 @@ input.barre {
   color: black;
   padding-left: 15px;
   border: inherit;
+  outline: none;
+  border: 1px solid #f2f2f2;
 }
 
 /*icone localisation*/
 
 .local i {
   border-radius: 100%;
-  display: inline-flex;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 18px;
   color: black;
 }
 div.local {
@@ -666,7 +668,7 @@ h5 {
   /*activite marseilles*/
 }
 
-/*tablette*/
+/*-*-*-*--*-*TABLETTE*-*-*-*-*-*-*-*/
 @media all and (max-width: 992px) {
   .appartements-list {
     flex-direction: column-reverse;
@@ -686,41 +688,80 @@ h5 {
 
 @media all and (max-width: 866px) {
 }
-/*mobile*/
+/*-*-*-*-*-*-MOBILE*-*-*-*-*-*-*-*-*-*/
 @media all and (max-width: 768px) {
   body {
     margin: 0px;
     width: auto;
   }
+  /*NAVBAR*/
   nav {
     flex-flow: column nowrap;
     justify-content: center;
-    margin: 0px;
   }
   #logo {
-    display: flex;
-    width: 100%;
-    max-width: 100px;
     align-self: center;
   }
-
   .hebergement {
-    align-self: center;
-    border: solid;
-    margin:0 0 0 60px;
-    width: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0;
+    width: 100%;
+    border-bottom: #f2f2f2 3px solid;
   }
   .hebergement a {
-    border-bottom: black solid 3px;
-    width: 100%;
+    display: flex;
   }
-
-
+  /*animation bleu*/
+  .hebergement a:hover {
+    border-top: none;
+    border-bottom: 3px solid blue;
+  }
   /*PLUS POPULAIRE*/
   .popular-appartment-card {
     width: 95%;
+  }
+  /*BARRE DE RECHERCHE*/
+  div.local {
+    border: red solid 1px;
+    width: 45px;
+    height: 45px;
+  }
+  .fasfa-map-marker-alt {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  input.barre {
+    width: 100%;
+    height: 45px;
+    flex-grow: 1;
+  }
+  /*boutton rechercher*/
+  .rechercher button {
+    display: initial;
+    height: 45px;
+    width: 45px;
+    font-size: 14px;
+    color: white;
+    flex-grow: 2;
+    background-color: #0065fc;
+    border: 0;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    right: 10px;
+ 
+  }
+
+  /*cacher rechercher et apparaitre la loupe*/
+  .rechercher .fas.fa-search {
+    visibility: visible;
+    display: initial;
+
+  }
+
+  .rechercher span {
+    visibility: hidden;
   }
 
   /*HEBERGEMENT MARSEILLE*/
@@ -731,8 +772,8 @@ h5 {
     width: auto;
     flex-direction: column;
   }
-  .appartment-card{
-    width:100%;
+  .appartment-card {
+    width: 100%;
   }
 
   /*activite marseille*/
