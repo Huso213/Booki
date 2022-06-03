@@ -774,7 +774,7 @@ h5 {
 /*PLUS POPULAIRE*/
 .appartements-list > div{
   border-radius: 0;/*bordure plus populaire*/
-  width: 97%;
+  width: 98%;
   margin: 0 0 0 -5px;
 }
 .popular-appartment-card {
@@ -841,5 +841,6 @@ h5 {
     background-color: #f2f2f2;
     height: max-content;
     margin-top: 20px;
+    width: auto;
   }
 }
