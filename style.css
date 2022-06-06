@@ -877,6 +877,9 @@ h5 {
   height: auto;
   row-gap: 30px;
 }
+section.activitecart{
+  margin: 0 0 0 -20px;
+}
 
 .card_activ {
   width: 100%;
@@ -891,15 +894,7 @@ h5 {
   width: 100%;
   height: 150px;
 }
-.card_activ.cartes3 .titre_cartes {
-  margin: 70px 0 0 20px;
-}
-.card_activ.cartes5 .titre_cartes {
-  margin: 35px 0 0 20px;
-}
-.card_activ.cartes6 .titre_cartes {
-  margin: 25px 0 0 20px;
-}
+
 
 #activites .card_activ:hover {
   transform:none;
