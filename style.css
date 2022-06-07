@@ -827,6 +827,11 @@ h5 {
   .rechercher span {
     visibility: hidden;
   }
+
+  /*filtres*/
+  .filtres{
+    zoom: 90%;
+  }
   /*Informaition*/
   div.info {
     margin: 0 0 0 20px;
@@ -835,7 +840,7 @@ h5 {
   /*PLUS POPULAIRE*/
   .appartements-list > div {
     border-radius: 0; /*bordure plus populaire*/
-    width: 100%;
+    width:99%;
     margin: 0 0 0 -1px;
   }
   .popular{
