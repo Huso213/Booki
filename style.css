@@ -850,7 +850,8 @@ h5 {
 
 body{
   margin:0px;
-  width: auto;
+  width: 100%;
+  zoom: 99%;
 }
   
   /*NAVBAR*/
@@ -944,13 +945,18 @@ body{
   }
 
   /*PLUS POPULAIRE*/
+  .appartements-list{
+    margin: 0px;
+  }
   .appartements-list > div {
     border-radius: 0; /*bordure plus populaire*/
-    width: 103%;
-    margin: 0 0 0 -30px;
+    width: 104%;
+    margin: 0 -15px 0 0px;
   }
-  .popular {
+  div.popular {
     height: 100%;
+    width: 104%;
+    margin:0px -35px 0 8px;
   }
   .popular-flex {
     width: 105%;
@@ -984,16 +990,16 @@ body{
   }
 
   /*activite a Marseille*/
+  #activites{
+    margin: 0;
+  }
   section.activitecart {
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content:center;
     column-gap: unset;
     height: auto;
     row-gap: 30px;
-  }
-  section.activitecart {
-    margin: 0 0 0 -10px;
-    justify-content: center;
+    margin: 0 0 0 0px;
   }
 
   .card_activ {
