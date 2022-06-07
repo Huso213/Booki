@@ -941,9 +941,14 @@ h5 {
   }
   /*Informaition*/
   div.info {
-    margin: 0 0 0 20px;
+    margin: 0 0 25px 20px;
   }
-
+div.i{
+  border: 1px lightgray solid;
+  height: 30px;
+  width: 40px;
+  margin-right:10px;
+}
   /*PLUS POPULAIRE*/
   .appartements-list{
     margin: 0px;
@@ -1029,4 +1034,8 @@ h5 {
     width: auto;
   
   }
+  .footercolone{
+    margin: 16px 0 0 -20px;
+  }
 }
+/*Fin Media Query*/
