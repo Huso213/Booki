@@ -847,10 +847,12 @@ h5 {
 
 /*-*-*-*-*-*-MOBILE*-*-*-*-*-*-*-*-*-*/
 @media all and (max-width: 768px) {
-  body {
-    margin: 0px;
-    width: auto;
-  }
+
+body{
+  margin:0px;
+  width: auto;
+}
+  
   /*NAVBAR*/
   nav {
     width: 100%;
@@ -944,14 +946,14 @@ h5 {
   /*PLUS POPULAIRE*/
   .appartements-list > div {
     border-radius: 0; /*bordure plus populaire*/
-    width: 99%;
-    margin: 0 0 0 -1px;
+    width: 103%;
+    margin: 0 0 0 -30px;
   }
   .popular {
     height: 100%;
   }
   .popular-flex {
-    width: 100%;
+    width: 105%;
     gap: inherit;
     height: auto;
     flex-direction: column;
@@ -967,7 +969,7 @@ h5 {
   }
   /*HEBERGEMENT MARSEILLE*/
   .appartements-list .city {
-    width: 100%;
+    width: 103%;
     background-color: white;
   }
   .city-appartments-list {
@@ -990,12 +992,12 @@ h5 {
     row-gap: 30px;
   }
   section.activitecart {
-    margin: 0 0 0 0;
-    align-self: center;
+    margin: 0 0 0 -10px;
+    justify-content: center;
   }
 
   .card_activ {
-    width: 100%;
+    width: 94%;
     height: 200px;
   }
   .cartes1 img,
