@@ -1037,7 +1037,7 @@ width: 100%;
   }
   div.popular {
   height: 100%;
-    width: 108%;
+    width: 103%;
     margin: 0px 0px 0 0px;
   }
   .popular-flex {
@@ -1047,7 +1047,7 @@ width: 100%;
     flex-direction: column;
   }
   div.popular-appartment-card {
-    width: 105%;
+    width: 100%;
     margin: 0 25px 30px -10px;
   }
   .popular-description h4 {
