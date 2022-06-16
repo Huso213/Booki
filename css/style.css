@@ -829,7 +829,7 @@ width: 100%;
     margin: 0 20px 30px 20px;
 
   }
-  div.popular-appartment-card {
+  .popular-appartment-card {
     height: 140px;
     width: 95%;
   }
@@ -907,7 +907,9 @@ width: 100%;
     margin: 0;
 		width: auto;
   }
-
+*{
+  margin: 0;
+}
    
   /*NAVBAR*/
   nav {
@@ -922,7 +924,7 @@ width: 100%;
     align-self: center;
   }
   .hebergement {
-    width: 104%;
+    width: 101%;
     gap: 0;
     margin: 0 0 15px 0;
     border-bottom: #f2f2f2 3px solid;
@@ -939,7 +941,7 @@ width: 100%;
   /*animation bleu*/
   .hebergement a:hover {
     border-top: none;
-    width: 51%;
+    width: 50%;
     margin: 0;
     padding: 0;
     display: flex;
@@ -953,13 +955,16 @@ width: 100%;
   div.titre {
     margin: 10px 0 0 20px;
     padding: 0 1%;
-    width: 100%;
+    width: 96%;
   }
   .titre h1 {
     font-size: 20px;
+    width: 97%;
     margin: 0 0 20px 0;
   }
   .titre p {
+    width: 97%;
+
     font-size: 17px;
   }
 
@@ -1006,6 +1011,7 @@ width: 100%;
   /*Filtres*/
   .filtres {
     margin: 10px 0 15px 15px;
+    width: 97%;
   }
   .filter .bouton span{
     font-size: 20px;
@@ -1036,7 +1042,7 @@ width: 100%;
 
   /*PLUS POPULAIRE*/
   .plus{
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .appartements-list {
     margin: 0px;
@@ -1059,9 +1065,9 @@ width: 100%;
     width: auto;
     flex-direction: column;
   }
-  div.popular-appartment-card {
-    width: 100%;
-    margin: 0 25px 30px -10px;
+  .popular-appartment-card {
+    width: 102%;
+    margin: 0 0px 30px -15px;
   }
   .popular-description h4 {
     width: 100%;
@@ -1105,12 +1111,12 @@ padding: 0;
   }
 /*Afficher plus*/
 .marseille{
-  margin: 30px 0 5px 30px;
+  margin: 30px 0 5px 20px;
 }
   /*activite a Marseille*/
   #activites {    
     width:100%;
-    margin: 0 0 40px -5px;
+    margin: 0 0 40px -15px;
   }
   section.activitecart {
     flex-flow: row wrap;
@@ -1147,7 +1153,7 @@ padding: 0;
     background-color: #f2f2f2;
     height: max-content;
     margin: 0px 0 0 0;
-    width: 103%;
+    width: 100.2%;
   }
   .footercolone {
     margin: 30px 0 0 -20px;
