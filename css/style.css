@@ -681,9 +681,20 @@ padding-right: 10px;
   .city {
     width: 67.66%;
   }
+  /*populaire*/
+
   .popular {
     width: 34.33%;
   }
+
+  .popular-description h4{
+    font-size:medium;
+  }
+  .popular-description p{
+
+font-size: smaller;
+  }
+
   /*Activites a Marseille*/
   #activites {
     padding: 0px;
