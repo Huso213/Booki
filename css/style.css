@@ -889,16 +889,12 @@ width: 100%;
 
 /*-*-*-*-*-*-MOBILE*-*-*-*-*-*-*-*-*-*/
 @media screen and (max-width: 768px) {
-  body header,
+  body 
   main {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+		width: auto;
   }
-  *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+
    
   /*NAVBAR*/
   nav {
@@ -921,7 +917,7 @@ width: 100%;
   }
   .hebergement a {
     gap: 0;
-    width: 51%;
+    width: 50%;
     justify-content: center;
     display: flex;
     
@@ -944,6 +940,7 @@ width: 100%;
   div.titre {
     margin: 0 0 0 20px;
     padding: 0 1%;
+    width: 100%;
   }
   .titre h1 {
     font-size: 25px;
