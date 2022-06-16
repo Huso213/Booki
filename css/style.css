@@ -860,6 +860,9 @@ h5 {
 
 /*-*-*-*-*-*-MOBILE*-*-*-*-*-*-*-*-*-*/
 @media all and (max-width: 768px) {
+  *{
+    border: dashed 1px rgb(76, 0, 255);
+  }
   /*NAVBAR*/
   nav {
     margin: 0px;
@@ -873,9 +876,9 @@ h5 {
     align-self: center;
   }
   .hebergement {
-    width: 103%;
+    width: 100%;
     gap: 0;
-    margin: 0 -15px 15px 0;
+    margin: 0 0 15px 0;
     border-bottom: #f2f2f2 3px solid;
   }
   .hebergement a {
