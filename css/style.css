@@ -938,16 +938,16 @@ width: 100%;
   }
   /*titre*/
   div.titre {
-    margin: 0 0 0 20px;
+    margin: 10px 0 0 20px;
     padding: 0 1%;
     width: 100%;
   }
   .titre h1 {
-    font-size: 25px;
-    margin: 0 0 30px 0;
+    font-size: 20px;
+    margin: 0 0 20px 0;
   }
   .titre p {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   /*BARRE DE RECHERCHE*/
@@ -1066,6 +1066,9 @@ width: 100%;
   }
 
 /*titre*/
+.hebmarseille{
+  margin: 10px 0 25px 30px;
+}
 .hebmarseille h3{
   margin:20px 0 40px 0;
   }
@@ -1095,7 +1098,7 @@ width: 100%;
   /*activite a Marseille*/
   #activites {    
     width:100%;
-    margin: 0 0 40px -10px;
+    margin: 0 0 40px -5px;
   }
   section.activitecart {
     flex-flow: row wrap;
