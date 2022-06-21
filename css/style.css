@@ -129,6 +129,7 @@ div.rechercher button {
   border: none;
   color: white;
   background-color: #0065fc;
+  cursor: pointer;
 }
 .rechercher span {
   justify-content: center;
@@ -999,21 +1000,22 @@ padding: 0px;
   .appartements-list > div {
     border-radius: 0; /*bordure plus populaire*/
     width: 100%;
-    margin: 0 0 0 0px;
+    margin: 0 0px 0 0px;
   }
   div.popular {
     height: 100%;
-    width: 103%;
-    margin: 0px 0px 0 0px;
+    width: 102.5%;
+    margin: 0px 0px 0 2px;
   }
   .popular-flex {
     gap: inherit;
     height: auto;
-    width: auto;
+    width: 100%;
+
     flex-direction: column;
   }
   .popular-appartment-card {
-    width: 102%;
+    width: 97%;
     margin: 0 0px 30px -15px;
   }
   .popular-description h4 {
@@ -1026,9 +1028,9 @@ padding: 0px;
 
   .appartements-list .city {
     width: 100%;
-    padding: 0px 1%;
+    padding: 0px 0;
     background-color: white;
-    margin: 0 0 0 -7px;
+    margin: 0 0 0 4px;
   }
 
   /*titre*/
@@ -1039,13 +1041,13 @@ padding: 0px;
     margin: 20px 0 40px 0;
   }
   .city-appartments-list {
-    width: 100%;
+    width: 97%;
     flex-direction: column;
     margin: 0 0 0 25px;
-    padding-right: 10px;
+    padding-right: 1px;
   }
   .appartment-card {
-    width: 95%;
+    width: 98%;
     margin: 0px;
     padding: 0;
   }
@@ -1063,7 +1065,7 @@ padding: 0px;
   /*activite a Marseille*/
   #activites {
     width: 100%;
-    margin: 0 0 40px -15px;
+    margin: 0 0 40px -0px;
   }
   section.activitecart {
     flex-flow: row wrap;
@@ -1071,13 +1073,13 @@ padding: 0px;
     height: auto;
     row-gap: 30px;
     margin: 0 0px 0 25px;
-    width: 95%;
+    width: 97%;
   }
 
   .card_activ {
     width: 95%;
     height: 200px;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 0px;
   }
   .cartes1 img,
   .cartes2 img,
