@@ -1015,7 +1015,7 @@ padding: 0px;
     flex-direction: column;
   }
   .popular-appartment-card {
-    width: 97%;
+    width: 99%;
     margin: 0 0px 30px -15px;
   }
   .popular-description h4 {
@@ -1064,7 +1064,7 @@ padding: 0px;
   }
   /*activite a Marseille*/
   #activites {
-    width: 100%;
+    width: 99%;
     margin: 0 0 40px -0px;
   }
   section.activitecart {
